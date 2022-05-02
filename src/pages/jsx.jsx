@@ -1,6 +1,6 @@
 export default function Jsx() {
 
-    const titulo = <h1>JSX</h1>
+    const title = <h1>JSX</h1>
 
     function subtitle() {
         return <h2>yep thats a subtitle</h2>
@@ -8,7 +8,7 @@ export default function Jsx() {
     
     return (
         <div>
-            {titulo}
+            {title}
             {subtitle()}
         </div>
     )

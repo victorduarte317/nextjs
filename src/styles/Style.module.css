@@ -1,0 +1,14 @@
+.purple {
+    height: 100vh;
+    background-color: #670bbd;
+    color: #fff
+}
+ 
+/* to use modularized css, a selector is needed,
+   it cant simply be "h1", it needs to have the
+   "purple" selector. */
+   
+.purple h1 {
+    margin: 0;
+}
+
