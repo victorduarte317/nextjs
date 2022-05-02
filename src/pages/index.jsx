@@ -1,7 +1,11 @@
+import Link from "next/link";
+
 export default function Home() {
     return (
         <div>
-            <h1> Next.JS & React Fundamentals</h1>
+            <Link href="/style">
+                Style
+            </Link>
         </div>
     )
 }
