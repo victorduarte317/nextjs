@@ -4,7 +4,7 @@ import styles from '../styles/Nav.module.css'
 export default function Nav(props) {
     return (
         <div>
-            <Link href={props.destination}>
+            <Link href={props.destination} passHref>
                 <div className={styles.Nav} style={{
                     backgroundColor: props.color ?? 'dodgerblue'
                 }}>

@@ -1,7 +1,7 @@
 import Layout from '../../../components/Layout';
 import { useRouter } from 'next/router'
 
-export default function userById() {
+export default function UserById() {
 
     const router = useRouter()
 
