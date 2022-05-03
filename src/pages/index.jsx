@@ -16,6 +16,7 @@ export default function Home() {
             <Nav text="Navigation #01" destination="/navigation" color="green"/> 
             <Nav text="Navigation #02 - Dynamic" destination="/user/sp-2/321" color="goldenrod"/> 
             <Nav text="Stated component" destination="/stated" color="palevioletred"/> 
+            <Nav text="API Integration #01" destination="/integration" color="black"/> 
 
         </div>
     )
